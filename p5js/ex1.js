@@ -33,7 +33,6 @@ function draw() {
   fill(20,20,20);
   ellipse (200,400, 380, 380);
   translate (300,100);
-  rotate (angle);
   stroke (0,0,0)
   strokeWeight(1);
   fill(246, 0, 1);
@@ -46,8 +45,6 @@ function draw() {
   fill (250, 255, 254)
   stroke(255,255,255);
   strokeWeight(3);
-
-  angle= angle + 0.05;
 
 
 
